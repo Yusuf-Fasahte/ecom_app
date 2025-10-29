@@ -65,7 +65,7 @@ ecom_app/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/ecom_app.git
+git clone https://github.com/Yusuf-Fasahte/ecom_app.git
 cd ecom_app
 ```
 
@@ -139,7 +139,7 @@ but automatically converted to **INR (₹)** in the frontend using:
 
 ```js
 // client/src/utils/currency.js
-export const USD_TO_INR = 82;
+export const USD_TO_INR = 88;
 export function formatINR(usdPrice) {
   return `₹${(usdPrice * USD_TO_INR).toFixed(0)}`;
 }
@@ -186,10 +186,9 @@ This project demonstrates:
 ## 👨‍💻 Developed By
 
 **Yusuf Fasahte**  
-Bharati Vidyapeeth College of Engineering, Navi Mumbai
 
-📧 Email: your.email@example.com  
-💼 GitHub: [https://github.com/your-username](https://github.com/your-username)
+📧 Email: yusuffasahte@gmail.com OR fasahteyusuf@gmail.com  
+💼 GitHub: [https://github.com/Yusuf-Fasahte](https://github.com/Yusuf-Fasahte)
 
 ---
 
