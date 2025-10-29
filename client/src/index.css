@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small customizations */
+body { @apply bg-slate-50 text-slate-800; }
+.card { @apply bg-white rounded-2xl shadow p-4; }
+
+:root {
+  --toast-bg: #1e293b;
+  --toast-text: #fff;
+}
+
+.light {
+  --toast-bg: #f8fafc;
+  --toast-text: #0f172a;
+}
+
+body {
+  @apply bg-lightBg text-slate-800 transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-darkBg text-slate-100;
+}
